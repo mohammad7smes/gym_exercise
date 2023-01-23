@@ -9,9 +9,13 @@ body {
     font-size: Bold;
   }
 
-  ::-webkit-scrollbar{
-    width: 10px;
-  }
+  ::-webkit-scrollbar { width: 8px; }
+
+::-webkit-scrollbar-track { background-color: orange; }
+
+::-webkit-scrollbar-thumb { background-color: orange; }
+
+::-webkit-scrollbar-thumb:hover { background-color: orange; }
   
   * {
     padding: 0px;
@@ -114,7 +118,7 @@ body {
     text-decoration: none;
   }
   
-  @media screen and (max-width:1200px) {
+  @media screen and (max-width:992px) {
     .detail-image {
       width: 300px;
       height: 300px;

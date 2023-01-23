@@ -5,7 +5,7 @@ import BannerHeroImage from "../assets/images/banner.png"
 const HeroBanner = () => {
     return (
         <Box sx={{
-            mt:{lg:'212px', xs: '70px'},
+            mt:{lg:'220px', xs: '200px'},
             mr:{sm:'50px'},
 
         }} position="relative" p="20px">
@@ -26,7 +26,7 @@ const HeroBanner = () => {
             </Typography>
 
             <Button  variant="contained"  color="error" href="#exercises"
-             sx={{backgroundColor:'#ff2625',padding:'15px'}}>جستجوی تمرین ها</Button >
+             sx={{backgroundColor:'#ff2625',padding:'15px'}} fontSize="22px">جستجوی تمرین ها</Button >
 
             
 
